@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background: url(Fondo5.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+.header{
+    background: #333333;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    opacity: 0.8;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    color: #ffffff;
+    font-size: 40px;
+    font-family:Berlin Sans FB;
+    line-height: 70px;
+    float: left;
+}
+nav{
+    line-height: 70px;
+    float: right;
+}
+
+#container{
+    width: 50%;
+    background: #090909;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px 5px 30px 5px;
+    position: relative;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left: 35px solid #141414;
+    border-bottom: 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#titulo{
+    font-size: 30px;
+    font-family: fantasy;
+}
+#Estudiante{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#Edad{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#Pasatiempos{
+    font-size: 20px;
+    font-family: sans-serif;
+}
