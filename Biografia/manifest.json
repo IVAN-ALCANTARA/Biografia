@@ -1,0 +1,35 @@
+{
+
+ "name": "Mi aplicación PWA",
+ "short_name": "Mi PWA",
+ "lang": "es-MX",
+ "start_url": "./?utm_source=web_app_manifest",
+ "scope": "./",
+ "background_color": "#2C3E50",
+ "theme_color": "#18BC9C",
+ "orientacion":"porttrait",
+ "display": "standalone",
+ "icons": [
+ {
+      "src": "images/virus.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "images/virus (1).png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "images/virus (2).png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/virus (3).png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
