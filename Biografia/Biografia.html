@@ -2,8 +2,15 @@
 <html>
 	<head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="MobileOptimized" content="width" /> 
+        <meta name="HandheldFriendly" content="true" /> 
         <title>Biografia</title>
         <link href="cssBiografia.css" rel="stylesheet" type="text/css"/>
+	<link rel="manifest" href="./manifest.json"/>
+	<style type="text/css">
+            @media handheld
+            body{width:98%;font-family:Verdana;font-size:16px;} 
+        </style>
         
     </head>
     <body>
@@ -43,5 +50,6 @@
             </form>
             <br/>
         </div>
+	<script src = "./script.js"></script>
     </body>
 </html>
